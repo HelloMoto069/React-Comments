@@ -1,0 +1,8 @@
+.comment-box-wrapper {
+    background-color: #e7e7e7;
+    padding: 20px;
+    width: fit-content;
+    min-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+}

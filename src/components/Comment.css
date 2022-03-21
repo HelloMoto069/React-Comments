@@ -1,0 +1,37 @@
+.comment-wrapper {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    padding-left: 10px;
+}
+
+.comment-info {
+    font-size: 14px;
+}
+
+.comment-body {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.comment-options {
+    color: #999;
+    font-weight: 600;
+}
+
+.comment-options>span {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.comment-show-replies-btn {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.comment-wrapper>.comment-wrapper {
+    margin-left: 20px;
+}
